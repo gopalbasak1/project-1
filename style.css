@@ -73,11 +73,15 @@ body{
     height: 550px;
     border-radius: 100%;
     background: rgba(241, 91, 34, 0.20);
-    display:flex;
-    align-items:flex-end;
-    
-    
+    position:relative;    
    
+}
+
+.person-img{
+    position: absolute;
+    bottom:0;
+    left:0;
+    
 }
 .content-text-section{
     width:400px;
@@ -170,9 +174,13 @@ body{
 
 .watch-img{
     max-width: 100%;
-   
+   position: relative;
 }
-
+.gradinent{
+    position: absolute;
+    top:0;
+    left:0;
+}
 .watch-details {
     position: absolute;
     top: 59px;
