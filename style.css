@@ -1,0 +1,71 @@
+/* Primary Css */
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+/* Header CSS */
+
+.header-container{
+    max-width:1400px;
+    height: 600px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('./images/banner/banner1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    
+    
+    
+
+}
+
+
+.header-text{
+    width:500px;
+    text-align: right;
+    flex-direction: column;
+    margin-right:0px;
+    
+    
+}
+
+.header-text h1{
+    font-size: 65px;
+    font-weight: 700;
+    color:#151414;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.header-text p{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom:15px;
+   
+}
+
+.btn-primary{
+    padding:10px 20px;
+    font-size:20px;
+    background-color: #F15B22;
+    border:1px solid #F15B22;
+    color:#fff;
+    transition: .4s;
+    
+}
+
+.btn-primary:hover{
+    background-color: red;
+    color:black;
+    
+}
